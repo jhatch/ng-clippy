@@ -28,5 +28,6 @@ AngularJS service wrapper for ClippyJS
 
 Installation
 ------------
-bower install ngClippy
+    bower install ngClippy
+    
 Note: ngClippy requires ClippyJS which requires jQuery for now...
