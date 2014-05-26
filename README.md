@@ -1,13 +1,13 @@
 ng-clippy
 =========
 
+AngularJS service wrapper for ClippyJS
+--------------------------------------
+
 ![alt tag](http://www.smore.com/images/clippy/clippy.png)
 ![alt tag](http://www.smore.com/images/clippy/merlin.png)
 ![alt tag](http://www.smore.com/images/clippy/rover.png)
 ![alt tag](http://www.smore.com/images/clippy/links.png)
-
-AngularJS service wrapper for ClippyJS
---------------------------------------
 
     angular.module('ClippyDemo', ['ngRoute', 'ngClippy'])
 
