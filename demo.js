@@ -3,15 +3,13 @@
 
   angular.module('ClippyDemo', ['ngRoute', 'ngClippy'])
 
-  .config(function ( $locationProvider, $routeProvider) {
+  .config(function ( $locationProvider, $routeProvider, clippyProvider) {
     $locationProvider.html5Mode(true);
     $routeProvider.when('/', {
       controller: 'DemoCtrl',
       template: '<div></div>',
       resolve: {
-        agent: function (Clippy) {
-          return Clippy.load();
-        }
+        agent: clippyProvider.resolve('Merlin')
       }
     });
   })
