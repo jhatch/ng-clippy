@@ -9,7 +9,7 @@
       controller: 'DemoCtrl',
       template: '<div></div>',
       resolve: {
-        agent: clippyProvider.resolve('Merlin')
+        agent: clippyProvider.resolve('Clippy')
       }
     });
   })
