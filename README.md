@@ -21,4 +21,7 @@ AngularJS service wrapper for ClippyJS
       agent.speak('Hello World!');
     });
 
+![alt tag](http://www.smore.com/images/clippy/clippy.png)
 ![alt tag](http://www.smore.com/images/clippy/merlin.png)
+![alt tag](http://www.smore.com/images/clippy/rover.png)
+![alt tag](http://www.smore.com/images/clippy/links.png)
