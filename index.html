@@ -1,0 +1,16 @@
+<html ng-app='ClippyDemo'>
+<head>
+  <title>ng-clippy demo</title>
+
+  <link rel="stylesheet" type="text/css" href="bower_components/clippyjs/build/clippy.css" />
+  
+  <script src='bower_components/jquery/dist/jquery.min.js'></script>
+  <script src='bower_components/clippyjs/build/clippy.min.js'></script>
+  <script src='bower_components/angular/angular.min.js'></script>
+  <script src='src/ng-clippy.js'></script>
+  <script src='demo.js'></script>
+</head>
+<body ng-controller='DemoCtrl'>
+  <div ng-clippy='Links' speak='$speak' move='$move'></div>
+</body>
+</html>

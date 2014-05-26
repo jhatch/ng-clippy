@@ -1,0 +1,23 @@
+{
+  "name": "ng-clippy",
+  "main": "ng-clippy.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jhatch/ng-clippy",
+  "authors": [
+    "John Hatcher <jhatcher@jibe.com>"
+  ],
+  "description": "AngularJS directive for ClippyJS",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "clippyjs": "*",
+    "angular": "~1.2.16"
+  }
+}
