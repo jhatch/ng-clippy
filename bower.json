@@ -18,6 +18,7 @@
   "dependencies": {
     "jquery": "~2.1.1",
     "clippyjs": "*",
-    "angular": "~1.2.16"
+    "angular": "~1.2.16",
+    "angular-route": "~1.2.16"
   }
 }
