@@ -25,3 +25,8 @@ AngularJS service wrapper for ClippyJS
       agent.show();
       agent.speak('Hello World!');
     });
+
+Installation
+------------
+bower install ngClippy
+Note: ngClippy requires ClippyJS which requires jQuery for now...
